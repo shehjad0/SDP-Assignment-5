@@ -1,0 +1,14 @@
+<h2>Hello {{ user.first_name }} {{ user.last_name }},</h2>
+
+<p>We are pleased to inform you that a money deposit has been successfully made to your account.</p>
+
+<p>Transaction Details:</p>
+<ul>
+    <li><strong>Balance:</strong> {{ user.account.balance }}</li>
+    <li><strong>Deposit Amount:</strong> {{ amount }}</li>
+</ul>
+
+<p>Thank you for using our services. If you have any questions or concerns regarding this deposit, please feel free to contact our support team.</p>
+
+<p>Best regards,<br>
+Library Management System</p>

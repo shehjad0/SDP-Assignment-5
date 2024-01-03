@@ -1,0 +1,15 @@
+<h2>Hello {{ user.first_name }} {{ user.last_name }},</h2>
+
+<p>We are delighted to confirm that your book borrowing request has been successfully processed.</p>
+
+<p>Book Borrowing Details:</p>
+<ul>
+    <li><strong>Book Title:</strong> {{ book.title }}</li>
+    <li><strong>Price:</strong> {{ book.price }}</li>
+    <li><strong>Your Current Balance:</strong> {{ user.account.balance }}</li>
+</ul>
+
+<p>Thank you for using our library services. Happy reading!</p>
+
+<p>Best regards,<br>
+Library Management System</p>
